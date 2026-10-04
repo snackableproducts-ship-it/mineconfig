@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "xmineconfig",
+  "version": "${version}",
+  "name": "XMINE CONFIG",
+  "description": "A modular client-side config menu, module system and HUD editor.",
+  "authors": ["XMINE"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.xmine.config.XmineClient"] },
+  "mixins": ["xmineconfig.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

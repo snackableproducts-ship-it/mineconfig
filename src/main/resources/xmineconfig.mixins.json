@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.xmine.config.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientAccessor",
+    "InteractionManagerAccessor",
+    "ClientPlayerEntityMixin",
+    "PlayerEntityMixin",
+    "KeyboardInputMixin",
+    "CameraMixin",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "ChatHudMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
